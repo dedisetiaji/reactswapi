@@ -1,8 +1,12 @@
 const action={
     type:"GET_PEOPLE_REQUEST"
 }
-const people_detail=(id)=>({
+const people_detail=(url)=>({
     type:"GET_DETAIL_PEOPLE",
-    id
+    url
 })
-export {action,people_detail}
+const films=(url)=>({
+    type:"GET_FILMS",
+    url
+})
+export {action,people_detail,films}

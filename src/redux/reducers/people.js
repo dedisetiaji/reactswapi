@@ -8,8 +8,9 @@ const people_reducer=(state=initial_state,action)=>{
             fetching:true,
         }
         case "GET_PEOPLE_SUCCESS":
+        // console.log(action.results)
         return{
-            list:[...state.list,...action.results],
+            list:action.results,
             fetching:false
         }
 

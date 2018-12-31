@@ -12,27 +12,22 @@ class People extends React.Component
     render()
     {
         return(<div>
-            {/* <button
-                onClick={this.props.download}
-            >
-                {this.props.fetching?"Loading...":"Download"}
-            </button> */}
-            <ul>
-               {this.props.list.map((el,id)=>
-                <Link to={`people/${id+1}`} key={id}>
-                    <li>{el.name}</li>
-                </Link>
-               )}
-            </ul>
+             <ul>
+                {this.props.list.map((el,id)=>
+                 <Link to={`people/${encodeURIComponent(el.url)}`} key={id}>
+                     <li>{el.name}</li>
+                 </Link>
+                )}
+             </ul>
             {/* {JSON.stringify(this.props.list)} */}
+            
         </div>)
     }
 }
 const mapStateToProps=(state)=>{
+   
     return{
-        list:state.people_reducer.list,
-        fetching:state.people_reducer.fetching,
-        error:state.people_reducer.error
+        list:state.people_reducer.list
     }
 }
 function mapDispatchToProps (dispatch) {

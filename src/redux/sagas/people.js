@@ -1,6 +1,6 @@
 import {put,call,takeLatest} from 'redux-saga/effects'
 import axios from 'axios'
-const url="https://swapi.co/api/"
+import url from './url'
 export function* people()
 {
    
