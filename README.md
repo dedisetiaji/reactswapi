@@ -5,10 +5,10 @@ React JS Implementation using API from :  [Star Wars API](https://swapi.com)
 ## Explanation
 
 This application combine some of library :
-1. (react-router-dom)[https://reacttraining.com/react-router/web/guides/quick-start]
-2. (axios)[https://github.com/axios/axios]
-3. (redux)[https://redux.js.org]
-4. (redux-saga)[https://redux-saga.js.org]
+1. [react-router-dom](https://reacttraining.com/react-router/web/guides/quick-start)
+2. [axios](https://github.com/axios/axios)
+3. [redux](https://redux.js.org)
+4. [redux-saga](https://redux-saga.js.org)
 etc...
 
 ## Clone Repository
