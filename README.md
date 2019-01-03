@@ -11,6 +11,12 @@ This application combine some of library :
 4. [redux-saga](https://redux-saga.js.org)
 etc...
 
+## Pre Installation
+
+1. [git](https://git-scm.com/)
+2. [node js](https://nodejs.org/)
+3. [react js](https://reactjs.org/)
+
 ## Clone Repository
 ```bash
 git clone github.com/dedisetiaji/reactswapi.git
